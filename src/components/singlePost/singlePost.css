@@ -1,0 +1,45 @@
+.singlePost {
+    flex: 6;
+}
+
+.singlePostImg {
+    width: 95%;
+    max-width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostTitle {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 20px;
+}
+
+.singlePostIcon {
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.singlePostDesc {
+    margin-top: 15px;
+}
+
+.singlePostInfo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
